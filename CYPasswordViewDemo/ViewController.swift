@@ -31,6 +31,7 @@ class ViewController: UIViewController {
     
     @IBAction func showPasswordView(_ sender: Any) {
         passwordView = CYPasswordView()
+        
         passwordView?.loadingText = "提交中..."
         passwordView?.cancelBlock = {[weak self] in
             self?.cancel()

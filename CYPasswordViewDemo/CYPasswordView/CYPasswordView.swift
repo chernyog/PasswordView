@@ -13,6 +13,8 @@ class CYPasswordView: UIView {
     private var tempStr = ""
     
     // MARK: - 公有属性
+    /// 标题
+    var title: String?
     var loadingText: String?
     /** 完成的回调block */
     var finish: ((String) -> Void)?
@@ -146,6 +148,8 @@ class CYPasswordView: UIView {
         passwordInputView.y = self.h
         passwordInputView.w = Const.ScreenWidth
         passwordInputView.x = 0
+        
+        passwordInputView.title = title
         
         lblMessage.text = loadingText ?? "支付中..."
         
