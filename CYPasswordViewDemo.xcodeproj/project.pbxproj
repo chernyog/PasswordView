@@ -1,0 +1,375 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F72E807F2518483800BAAACE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72E807E2518483800BAAACE /* AppDelegate.swift */; };
+		F72E80832518483800BAAACE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72E80822518483800BAAACE /* ViewController.swift */; };
+		F72E80862518483800BAAACE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F72E80842518483800BAAACE /* Main.storyboard */; };
+		F72E80882518483C00BAAACE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F72E80872518483C00BAAACE /* Assets.xcassets */; };
+		F72E808B2518483C00BAAACE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F72E80892518483C00BAAACE /* LaunchScreen.storyboard */; };
+		F72E80942518487100BAAACE /* CYPasswordView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F72E80932518487100BAAACE /* CYPasswordView.bundle */; };
+		F72E8096251848F400BAAACE /* GlobalConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72E8095251848F400BAAACE /* GlobalConfig.swift */; };
+		F72E80A725184B1B00BAAACE /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72E80A625184B1B00BAAACE /* UIColor+Extension.swift */; };
+		F72E80A925184BAD00BAAACE /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72E80A825184BAD00BAAACE /* UIView+Extension.swift */; };
+		F72E80AB25184C5600BAAACE /* CYPasswordInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72E80AA25184C5600BAAACE /* CYPasswordInputView.swift */; };
+		F72E80F02518683C00BAAACE /* CYPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72E80EF2518683C00BAAACE /* CYPasswordView.swift */; };
+		F72E80F2251899D400BAAACE /* UIDevice+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72E80F1251899D400BAAACE /* UIDevice+Extension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F72E807B2518483800BAAACE /* CYPasswordViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CYPasswordViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F72E807E2518483800BAAACE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F72E80822518483800BAAACE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F72E80852518483800BAAACE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F72E80872518483C00BAAACE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F72E808A2518483C00BAAACE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F72E808C2518483C00BAAACE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F72E80932518487100BAAACE /* CYPasswordView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = CYPasswordView.bundle; sourceTree = "<group>"; };
+		F72E8095251848F400BAAACE /* GlobalConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalConfig.swift; sourceTree = "<group>"; };
+		F72E80A625184B1B00BAAACE /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		F72E80A825184BAD00BAAACE /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		F72E80AA25184C5600BAAACE /* CYPasswordInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CYPasswordInputView.swift; sourceTree = "<group>"; };
+		F72E80EF2518683C00BAAACE /* CYPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CYPasswordView.swift; sourceTree = "<group>"; };
+		F72E80F1251899D400BAAACE /* UIDevice+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIDevice+Extension.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F72E80782518483800BAAACE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F72E80722518483800BAAACE = {
+			isa = PBXGroup;
+			children = (
+				F72E807D2518483800BAAACE /* CYPasswordViewDemo */,
+				F72E807C2518483800BAAACE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F72E807C2518483800BAAACE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F72E807B2518483800BAAACE /* CYPasswordViewDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F72E807D2518483800BAAACE /* CYPasswordViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F72E80922518485C00BAAACE /* CYPasswordView */,
+				F72E807E2518483800BAAACE /* AppDelegate.swift */,
+				F72E80822518483800BAAACE /* ViewController.swift */,
+				F72E80842518483800BAAACE /* Main.storyboard */,
+				F72E80872518483C00BAAACE /* Assets.xcassets */,
+				F72E80892518483C00BAAACE /* LaunchScreen.storyboard */,
+				F72E808C2518483C00BAAACE /* Info.plist */,
+			);
+			path = CYPasswordViewDemo;
+			sourceTree = "<group>";
+		};
+		F72E80922518485C00BAAACE /* CYPasswordView */ = {
+			isa = PBXGroup;
+			children = (
+				F72E80932518487100BAAACE /* CYPasswordView.bundle */,
+				F72E8095251848F400BAAACE /* GlobalConfig.swift */,
+				F72E80A625184B1B00BAAACE /* UIColor+Extension.swift */,
+				F72E80A825184BAD00BAAACE /* UIView+Extension.swift */,
+				F72E80F1251899D400BAAACE /* UIDevice+Extension.swift */,
+				F72E80AA25184C5600BAAACE /* CYPasswordInputView.swift */,
+				F72E80EF2518683C00BAAACE /* CYPasswordView.swift */,
+			);
+			path = CYPasswordView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F72E807A2518483800BAAACE /* CYPasswordViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F72E808F2518483C00BAAACE /* Build configuration list for PBXNativeTarget "CYPasswordViewDemo" */;
+			buildPhases = (
+				F72E80772518483800BAAACE /* Sources */,
+				F72E80782518483800BAAACE /* Frameworks */,
+				F72E80792518483800BAAACE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CYPasswordViewDemo;
+			productName = CYPasswordViewDemo;
+			productReference = F72E807B2518483800BAAACE /* CYPasswordViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F72E80732518483800BAAACE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = yong.chen;
+				TargetAttributes = {
+					F72E807A2518483800BAAACE = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = F72E80762518483800BAAACE /* Build configuration list for PBXProject "CYPasswordViewDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F72E80722518483800BAAACE;
+			productRefGroup = F72E807C2518483800BAAACE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F72E807A2518483800BAAACE /* CYPasswordViewDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F72E80792518483800BAAACE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F72E808B2518483C00BAAACE /* LaunchScreen.storyboard in Resources */,
+				F72E80882518483C00BAAACE /* Assets.xcassets in Resources */,
+				F72E80862518483800BAAACE /* Main.storyboard in Resources */,
+				F72E80942518487100BAAACE /* CYPasswordView.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F72E80772518483800BAAACE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F72E80A925184BAD00BAAACE /* UIView+Extension.swift in Sources */,
+				F72E80F2251899D400BAAACE /* UIDevice+Extension.swift in Sources */,
+				F72E80F02518683C00BAAACE /* CYPasswordView.swift in Sources */,
+				F72E8096251848F400BAAACE /* GlobalConfig.swift in Sources */,
+				F72E80832518483800BAAACE /* ViewController.swift in Sources */,
+				F72E80AB25184C5600BAAACE /* CYPasswordInputView.swift in Sources */,
+				F72E807F2518483800BAAACE /* AppDelegate.swift in Sources */,
+				F72E80A725184B1B00BAAACE /* UIColor+Extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F72E80842518483800BAAACE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F72E80852518483800BAAACE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F72E80892518483C00BAAACE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F72E808A2518483C00BAAACE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F72E808D2518483C00BAAACE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F72E808E2518483C00BAAACE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F72E80902518483C00BAAACE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CYPasswordViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dev.CYPasswordViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F72E80912518483C00BAAACE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CYPasswordViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dev.CYPasswordViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F72E80762518483800BAAACE /* Build configuration list for PBXProject "CYPasswordViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F72E808D2518483C00BAAACE /* Debug */,
+				F72E808E2518483C00BAAACE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F72E808F2518483C00BAAACE /* Build configuration list for PBXNativeTarget "CYPasswordViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F72E80902518483C00BAAACE /* Debug */,
+				F72E80912518483C00BAAACE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F72E80732518483800BAAACE /* Project object */;
+}
