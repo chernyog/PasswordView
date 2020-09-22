@@ -1,6 +1,6 @@
 //
-//  CYPasswordInputView.swift
-//  CYPasswordViewDemo
+//  PasswordInputView.swift
+//  PasswordViewDemo
 //
 //  Created by yong.chen on 2020/9/21.
 //  Copyright © 2020 yong.chen. All rights reserved.
@@ -12,10 +12,10 @@ typealias PasswordInputViewBlock = (() -> Void)
 
 /// 从 bundle 中加载图片
 func loadImage(_ imageName: String) -> UIImage? {
-    return UIImage(named: "CYPasswordView.bundle/\(imageName)")
+    return UIImage(named: "PasswordView.bundle/\(imageName)")
 }
 
-class CYPasswordInputView: UIView {
+class PasswordInputView: UIView {
     // MARK: - 公有属性
     /// 标题
     var title: String?

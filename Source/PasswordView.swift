@@ -1,6 +1,6 @@
 //
-//  CYPasswordView.swift
-//  CYPasswordViewDemo
+//  PasswordView.swift
+//  PasswordViewDemo
 //
 //  Created by yong.chen on 2020/9/21.
 //  Copyright © 2020 yong.chen. All rights reserved.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class CYPasswordView: UIView {
+class PasswordView: UIView {
     // MARK: - 私有属性
     private var tempStr = ""
     
@@ -33,8 +33,8 @@ class CYPasswordView: UIView {
     }()
     
     /** 输入框 */
-    private lazy var passwordInputView: CYPasswordInputView = {
-        let view = CYPasswordInputView()
+    private lazy var passwordInputView: PasswordInputView = {
+        let view = PasswordInputView()
         view.cancelBlock = { [weak self] in
             self?.cancel()
         }
@@ -225,7 +225,7 @@ class CYPasswordView: UIView {
 }
 
 // MARK: - <UITextFieldDelegate>
-extension CYPasswordView: UITextFieldDelegate {
+extension PasswordView: UITextFieldDelegate {
     func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
         if tempStr.count == 0 {
             tempStr = string
