@@ -1,4 +1,6 @@
 # PasswordView - Swift版本
+![CocoaPods Compatible](https://img.shields.io/cocoapods/v/CYPasswordView.svg)
+![Platform](https://img.shields.io/cocoapods/p/CYPasswordView.svg?style=flat)
 
 ---
 
