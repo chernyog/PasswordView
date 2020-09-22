@@ -2,36 +2,35 @@
 
 ---
 
-`CYPasswordView`是一个模仿支付宝输入支付密码的密码框。
+`PasswordView`是一个模仿支付宝输入支付密码的密码框。
 
 ### 一、说明
 
 ---
 
-* `CYPasswordView`是一个简单且实用的输入密码框
+* `PasswordView`是一个简单且实用的输入密码框
 * 具体用法主要参考Demo程序
 
 ### 二、使用方法
 
 ---
 
-~~####使用 CocoaPods~~
+#### 使用 CocoaPods
 
-~~`pod 'CYPasswordView'`~~
+`pod 'PasswordView'`
 
 #### 手动导入文件
 
-1. 将`CYPasswordView`文件夹添加到项目中
-2. 导入主头文件`#import "CYPasswordView.h"`
+1. 将`Source`文件夹添加到项目中
 
 ### 三、部分API的介绍
 
 ---
 
-* 实例化`CYPasswordView`对象
+* 实例化`PasswordView`对象
 
 ``` swift
-CYPasswordView()
+PasswordView()
 ```
 
 * 弹出密码框
