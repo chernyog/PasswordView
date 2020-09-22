@@ -15,9 +15,9 @@
 
 ---
 
-#### 使用 CocoaPods 
+~~####使用 CocoaPods~~
 
-`pod 'CYPasswordView'`
+~~`pod 'CYPasswordView'`~~
 
 #### 手动导入文件
 
