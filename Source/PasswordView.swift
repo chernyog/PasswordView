@@ -8,7 +8,7 @@
 
 import UIKit
 
-class PasswordView: UIView {
+public class PasswordView: UIView {
     // MARK: - 私有属性
     private var tempStr = ""
     
@@ -142,7 +142,7 @@ class PasswordView: UIView {
     
     // MARK: - 公有方法
     /** 弹出密码框 */
-    open func show(in view: UIView?) {
+    public func show(in view: UIView?) {
         view?.addSubview(self)
         passwordInputView.h = Const.CYPasswordInputViewHeight
         passwordInputView.y = self.h
@@ -157,29 +157,29 @@ class PasswordView: UIView {
     }
     
     /** 隐藏密码框 */
-    open func hide() {
+    public func hide() {
         removeFromSuperview()
     }
     
     /** 开始加载 */
-    open func startLoading() {
+    public func startLoading() {
         startRotation(view: imgRotation)
         passwordInputView.clickable(false)
     }
     
     /** 加载完成 */
-    open func stopLoading() {
+    public func stopLoading() {
         stopRotation(view: imgRotation)
         passwordInputView.clickable(true)
     }
     
     /** 请求完成 */
-    open func requestComplete(state: Bool) {
+    public func requestComplete(state: Bool) {
         requestComplete(state: state, message: state ? "支付成功" : "支付失败")
     }
     
     /** 请求完成 */
-    open func requestComplete(state: Bool, message: String) {
+    public func requestComplete(state: Bool, message: String) {
         lblMessage.text = message
         imgRotation.image = loadImage(state ? "password_success" : "password_error")
         
