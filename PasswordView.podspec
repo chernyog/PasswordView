@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "PasswordView"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.authors     = { 'chernyog' => 'chenyios@126.com' }
   s.summary      = "PasswordView 是一个模仿支付宝输入支付密码的密码框。"
   s.homepage     = "https://github.com/chernyog/PasswordView"
@@ -16,8 +16,8 @@ Pod::Spec.new do |s|
   s.author             = { "cheny" => "chenyios@126.com" }
   s.platform     = :ios, "9.0"
   s.source       = { :git => "https://github.com/chernyog/PasswordView.git", :tag => s.version }
-  s.source_files  = "CYPasswordView/*.swift"
-  s.resources = "CYPasswordView/CYPasswordView.bundle"
+  s.source_files = 'Source/*.swift'
+  s.resources = "Source/PasswordView.bundle"
   s.requires_arc = true
 
 end
