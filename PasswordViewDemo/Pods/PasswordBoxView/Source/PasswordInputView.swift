@@ -8,18 +8,11 @@
 
 import UIKit
 
-public typealias PasswordInputViewBlock = (() -> Void)
+typealias PasswordInputViewBlock = (() -> Void)
 
 /// 从 bundle 中加载图片
 func loadImage(_ imageName: String) -> UIImage? {
-    var bundle: Bundle? = Bundle.main
-    if let url = Bundle(for: PasswordView.self).url(forResource: "PasswordView", withExtension: "bundle") {
-        bundle = Bundle(url: url)
-    }
-    let image =  UIImage(named: imageName, in: bundle, compatibleWith: .none)
-//    return UIImage(contentsOfFile: Bundle.cy_bundle()?.path(forResource: "\(imageName)@2x", ofType: "png") ?? "")
-//    return UIImage(named: "PasswordView.bundle/\(imageName)")
-    return image
+    return UIImage(named: "PasswordView.bundle/\(imageName)")
 }
 
 class PasswordInputView: UIView {

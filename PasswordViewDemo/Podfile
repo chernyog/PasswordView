@@ -4,7 +4,7 @@ platform :ios, '9.0'
 target 'CYPasswordViewDemo' do
   use_frameworks!
 
-  pod 'PasswordBoxView', '~> 0.0.1'
+  pod 'PasswordBoxView', '~> 0.0.2'
 end
 
 post_install do |installer|

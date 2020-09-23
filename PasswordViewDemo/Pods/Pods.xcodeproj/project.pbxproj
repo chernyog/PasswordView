@@ -20,7 +20,6 @@
 		9AD425B689ED3338CF816DE0EF713A7B /* PasswordBoxView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E367B2DDEA5958BD252F0605A1398E2F /* PasswordBoxView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A321DAF5A2B1DA533F5D73F449C088D2 /* PasswordBoxView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B60076279074881880E192997ADF41D1 /* PasswordBoxView-dummy.m */; };
 		CE96F223F211CED64343EEB2E9A43985 /* GlobalConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E599446BE72710C033B441BC40FFE2E /* GlobalConfig.swift */; };
-		F7B46773251AE5B000B93AC0 /* NSBundle+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B46772251AE5B000B93AC0 /* NSBundle+Extension.swift */; };
 		FC36DE635865B517232E78960842FCBC /* Pods-CYPasswordViewDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B9D6CA3F4B1F5D1FF61458FE22540691 /* Pods-CYPasswordViewDemo-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -40,7 +39,7 @@
 		1582D311391A6683658C67B8CAA2CC5E /* PasswordView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PasswordView.swift; path = Source/PasswordView.swift; sourceTree = "<group>"; };
 		1A711BD1880AB7CFE7F3DD9A0CB6F1FC /* Pods-CYPasswordViewDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CYPasswordViewDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
 		20390DA2C29E5E01216F01B6C9089284 /* Pods-CYPasswordViewDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CYPasswordViewDemo-Info.plist"; sourceTree = "<group>"; };
-		273BF70A1E46273C6E8662356EDB74C9 /* PasswordBoxView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PasswordBoxView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		273BF70A1E46273C6E8662356EDB74C9 /* PasswordBoxView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PasswordBoxView.framework; path = PasswordBoxView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		27E4053BA8C7612008D9C92EBC17604E /* Pods-CYPasswordViewDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CYPasswordViewDemo.modulemap"; sourceTree = "<group>"; };
 		2C1CF3F6223025478C4EA1C2A7E459C6 /* Pods-CYPasswordViewDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CYPasswordViewDemo-acknowledgements.plist"; sourceTree = "<group>"; };
 		312B988EF117AE4DE76A268D970131FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -56,14 +55,13 @@
 		8C973AC747E388474334C05845F7CB52 /* PasswordBoxView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PasswordBoxView.release.xcconfig; sourceTree = "<group>"; };
 		8CBD3B06878960FFD628DE725869A96F /* Pods-CYPasswordViewDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CYPasswordViewDemo-umbrella.h"; sourceTree = "<group>"; };
 		9B59DB622FFF0BAD7822802FCD0D6A64 /* PasswordView.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = PasswordView.bundle; path = Source/PasswordView.bundle; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B60076279074881880E192997ADF41D1 /* PasswordBoxView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PasswordBoxView-dummy.m"; sourceTree = "<group>"; };
 		B6E809CB6F041C8D7CA4C0B345C02F23 /* UIDevice+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIDevice+Extension.swift"; path = "Source/UIDevice+Extension.swift"; sourceTree = "<group>"; };
 		B9D6CA3F4B1F5D1FF61458FE22540691 /* Pods-CYPasswordViewDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CYPasswordViewDemo-dummy.m"; sourceTree = "<group>"; };
 		C2231DBAE75CE7B9E4FCBE48320CFFE7 /* PasswordBoxView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PasswordBoxView.modulemap; sourceTree = "<group>"; };
-		C4C94BB1282E6174B4C405DF81D0E462 /* Pods_CYPasswordViewDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CYPasswordViewDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4C94BB1282E6174B4C405DF81D0E462 /* Pods_CYPasswordViewDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CYPasswordViewDemo.framework; path = "Pods-CYPasswordViewDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E367B2DDEA5958BD252F0605A1398E2F /* PasswordBoxView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PasswordBoxView-umbrella.h"; sourceTree = "<group>"; };
-		F7B46772251AE5B000B93AC0 /* NSBundle+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "NSBundle+Extension.swift"; path = "Source/NSBundle+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,10 +94,10 @@
 				58365F9BD6916FAEC3E93794A4A08B3E /* UIColor+Extension.swift */,
 				B6E809CB6F041C8D7CA4C0B345C02F23 /* UIDevice+Extension.swift */,
 				4697532448F2498833D7BA7BBAD232E5 /* UIView+Extension.swift */,
-				F7B46772251AE5B000B93AC0 /* NSBundle+Extension.swift */,
 				DF94BDBC8B942A9417361B11F5ECEE4B /* Resources */,
 				322F6F5591D569DCCE321874AAF0B19C /* Support Files */,
 			);
+			name = PasswordBoxView;
 			path = PasswordBoxView;
 			sourceTree = "<group>";
 		};
@@ -320,7 +318,6 @@
 				5E889057053721D71DDCF9E5BEE7585D /* PasswordView.swift in Sources */,
 				22CA6E020B35A30AEDCBFDE077CFB4B3 /* UIColor+Extension.swift in Sources */,
 				6B7C86A06231C2F49B8183E27A3EAD75 /* UIDevice+Extension.swift in Sources */,
-				F7B46773251AE5B000B93AC0 /* NSBundle+Extension.swift in Sources */,
 				243BCA8E3172B0F8B4862E86B70D740C /* UIView+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

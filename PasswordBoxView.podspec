@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "PasswordBoxView"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.authors     = { 'chernyog' => 'chenyios@126.com' }
   s.summary      = "PasswordBoxView 是一个模仿支付宝输入支付密码的密码框。"
   s.homepage     = "https://github.com/chernyog/PasswordView"

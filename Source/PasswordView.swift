@@ -8,20 +8,20 @@
 
 import UIKit
 
- class PasswordView: UIView {
+public class PasswordView: UIView {
     // MARK: - 私有属性
     private var tempStr = ""
     
     // MARK: - 公有属性
     /// 标题
-    var title: String?
-    var loadingText: String?
+    public var title: String?
+    public var loadingText: String?
     /** 完成的回调block */
-    var finish: ((String) -> Void)?
+    public var finish: ((String) -> Void)?
     /** 忘记密码的block */
-    var forgetPasswordBlock: PasswordInputViewBlock?
+    public var forgetPasswordBlock: PasswordInputViewBlock?
     /** 取消的block */
-    var cancelBlock: PasswordInputViewBlock?
+    public var cancelBlock: PasswordInputViewBlock?
     
     // MARK: - 懒加载
     private lazy var coverView: UIControl = {
@@ -83,7 +83,7 @@ import UIKit
         super.init(coder: coder)
     }
     
-     override func layoutSubviews() {
+    public override func layoutSubviews() {
         imgRotation.centerX = passwordInputView.centerX
         imgRotation.centerY = passwordInputView.h * 0.5
         
@@ -226,7 +226,7 @@ import UIKit
 
 // MARK: - <UITextFieldDelegate>
 extension PasswordView: UITextFieldDelegate {
-     func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
+    open func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
         if tempStr.count == 0 {
             tempStr = string
         } else {
