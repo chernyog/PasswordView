@@ -1,0 +1,16 @@
+PODS:
+  - PasswordBoxView (0.0.1)
+
+DEPENDENCIES:
+  - PasswordBoxView (~> 0.0.1)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - PasswordBoxView
+
+SPEC CHECKSUMS:
+  PasswordBoxView: c56307cc00a4496cac99e0b49380c8775e5f84b7
+
+PODFILE CHECKSUM: 18d168f4af42cae80f577d221d28bd85a709480b
+
+COCOAPODS: 1.9.1
