@@ -8,7 +8,7 @@
 
 import UIKit
 
-public class PasswordView: UIView {
+ class PasswordView: UIView {
     // MARK: - 私有属性
     private var tempStr = ""
     
@@ -83,7 +83,7 @@ public class PasswordView: UIView {
         super.init(coder: coder)
     }
     
-    override func layoutSubviews() {
+     override func layoutSubviews() {
         imgRotation.centerX = passwordInputView.centerX
         imgRotation.centerY = passwordInputView.h * 0.5
         
@@ -226,7 +226,7 @@ public class PasswordView: UIView {
 
 // MARK: - <UITextFieldDelegate>
 extension PasswordView: UITextFieldDelegate {
-    func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
+     func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
         if tempStr.count == 0 {
             tempStr = string
         } else {
