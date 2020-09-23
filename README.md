@@ -19,7 +19,7 @@
 
 #### 使用 CocoaPods
 
-`pod 'PasswordView'`
+`pod 'PasswordBoxView'`
 
 #### 手动导入文件
 
